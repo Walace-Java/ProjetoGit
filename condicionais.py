@@ -4,7 +4,7 @@ comprar = int(input('o que deseja comprar, temos os seguintes itens \n'
                     '3 amendoim\n'))
 if comprar == 1:
     idade = int(input('quantos anos voce tem '))
-    if idade <18:
+    if idade < 18:
         print('sinto muito, mas você não pode comprar isso')
     else:
         print('custa 8 reais')
